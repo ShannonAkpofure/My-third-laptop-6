@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: "red hat display";
+}
+
+.order-summary_whole {
+    width: 400px;
+    border-radius: 30px;
+    background-color: hsl(225, 100%, 98%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.order-summary {
+    padding: 30px;
+}
+
+.texts {
+   text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+
+.plan-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 94%); /* Light background*/
+    padding: 15px 20px;
+    border-radius: 12px; /* Rounded corners */
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+.plan-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-icon {
+    background-color: #e8ebff; /* Light icon background */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.plan-title {
+    font-weight: 800;
+   color: hsl(223, 47%, 23%);
+    font-size: 18px;
+}
+
+.plan-price {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.change-link {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.change-link:hover {
+    color: #706bff;
+}
+
+.pro_pay, .cancel {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 0;
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    font-weight:bolder;
+    cursor: pointer;
+    text-align: center;
+    font-family: "red hat display";
+}
+
+.listen {
+    font-weight: 500;
+}
+
+.cancel:hover {
+    color: hsl(225, 100%, 98%);
+    background-color: #706bff;
+}
+
+.pro_pay:hover {
+    background-color: #706bff;
+    color: hsl(225, 100%, 98%);
+}
+
+.pro_pay {
+    margin-bottom: 25px;
+}
+.hero_svg {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 400px;
+}
